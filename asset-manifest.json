@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-trainer/static/css/main.910289be.css",
-    "main.js": "/personal-trainer/static/js/main.e218c8d9.js",
+    "main.css": "/personal-trainer/static/css/main.da327d5a.css",
+    "main.js": "/personal-trainer/static/js/main.7d5d189e.js",
     "static/media/Background.mp4": "/personal-trainer/static/media/Background.9067dbe511649df4c5be.mp4",
     "static/media/toning.jpg": "/personal-trainer/static/media/toning.cec49cd9d5fc3f92debf.jpg",
     "static/media/weight-loss.jpg": "/personal-trainer/static/media/weight-loss.7acd1d1a48b6164e7ab1.jpg",
@@ -13,11 +13,11 @@
     "static/media/ball.jpg": "/personal-trainer/static/media/ball.1d932e0fac0e06ab816c.jpg",
     "static/media/main-image.jpg": "/personal-trainer/static/media/main-image.f45f3ac0ed659995b49e.jpg",
     "index.html": "/personal-trainer/index.html",
-    "main.910289be.css.map": "/personal-trainer/static/css/main.910289be.css.map",
-    "main.e218c8d9.js.map": "/personal-trainer/static/js/main.e218c8d9.js.map"
+    "main.da327d5a.css.map": "/personal-trainer/static/css/main.da327d5a.css.map",
+    "main.7d5d189e.js.map": "/personal-trainer/static/js/main.7d5d189e.js.map"
   },
   "entrypoints": [
-    "static/css/main.910289be.css",
-    "static/js/main.e218c8d9.js"
+    "static/css/main.da327d5a.css",
+    "static/js/main.7d5d189e.js"
   ]
 }
