@@ -7,7 +7,13 @@ import Background from "../assets/Background.mp4";
 const Video = () => {
   return (
     <div className="back-video">
-      <video playsinline autoPlay loop muted id="video">
+      <video
+        playsinline={true}
+        autoPlay={true}
+        loop={true}
+        muted={true}
+        id="video"
+      >
         <source src={Background} type="video/mp4" />
       </video>
       <div className="content">
