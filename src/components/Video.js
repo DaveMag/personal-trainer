@@ -9,7 +9,7 @@ const Video = () => {
     <div className="back-video">
       <video
         playsinline={true}
-        autoPlay={true}
+        autoplay={true}
         loop={true}
         muted={true}
         id="video"
