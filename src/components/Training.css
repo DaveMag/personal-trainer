@@ -1,0 +1,91 @@
+.training {
+  width: 100%;
+  padding: 4rem 1rem;
+  background-color: #e0e0e0;
+}
+
+.card-container {
+  max-width: 1240px;
+  margin: auto;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card-container .card {
+  border: 1px solid #333;
+  color: #333;
+}
+
+.card {
+  text-align: center;
+  padding: 1rem;
+}
+
+.card h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.card p {
+  letter-spacing: 0.5px;
+}
+
+.card:hover {
+  background-color: #a0a0a0;
+  color: #fff;
+}
+
+.card .aboutIt {
+  font-size: 1.2rem;
+  width: 80%;
+  padding: 1rem 0;
+  margin: 0 auto;
+  color: #000;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.card img {
+  display: block;
+  width: 80%;
+  padding: 0;
+  height: 25vh;
+  border: 1px solid #333;
+  margin: 1rem auto;
+}
+
+.card .btn {
+  display: block;
+  width: 80%;
+  margin: 2rem auto;
+  color: #333;
+  border: 1px solid #000;
+}
+
+.card .btn:hover {
+  border: 2px solid #000;
+}
+
+@media screen and (max-width: 1200px) {
+  .card-container {
+    max-width: 880px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 80px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .card-container {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 420px;
+  }
+  .card img {
+    height: 20vh;
+  }
+
+  @media screen and (max-width: 500px) {
+    .card-container {
+      max-width: 350px;
+    }
+  }
+}

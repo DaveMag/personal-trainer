@@ -1,0 +1,58 @@
+#video {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.back-video {
+  height: 100vh;
+  width: 100%;
+  object-fit: contain;
+}
+
+.back-video .content {
+  text-align: center;
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  top: 40vh;
+}
+
+.back-video .content h1 {
+  font-size: 4rem;
+  color: #fff;
+  text-shadow: 5px 5px 5px #000;
+}
+
+.back-video p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.back-video .btn {
+  margin: 1rem 0.2rem;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 780px) {
+  .pop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .content h1 {
+    font-size: 3rem;
+  }
+
+  .content p {
+    font-size: 1.4rem;
+    margin-bottom: 1.6rem;
+  }
+}
