@@ -1,16 +1,16 @@
 import React from "react";
 import "./Form.css";
 
-const Form = () => {
+const ContactForm = () => {
   return (
     <div className="form">
-      <form method="GET" action="/">
+      <form novalidate action={process.env.PUBLIC_URL + "/confirmation"}>
         <label>Your Name</label>
-        <input type="text" />
+        <input required type="text" />
         <label>Email</label>
-        <input type="text" />
+        <input required type="text" />
         <label>Training</label>
-        <select name="training" className="train-select">
+        <select required name="training" className="train-select">
           <option value="">Choose the type of training</option>
           <option value="weight-loss">Weight Loss</option>
           <option value="cardio">Cardio</option>
@@ -19,12 +19,14 @@ const Form = () => {
           <option value="injury-rehab">Injury Rehabilitation</option>
           <option value="toning">Muscle Toning</option>
         </select>
-        <label>Details</label>
+        <label>Inquires</label>
         <textarea rows="6" placeholder="Any questions?" />
-        <button className="form-btn">Submit Form</button>
+        <button className="form-btn" type="submit">
+          Submit Form
+        </button>
       </form>
     </div>
   );
 };
 
-export default Form;
+export default ContactForm;

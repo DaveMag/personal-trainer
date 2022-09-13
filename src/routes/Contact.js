@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import MainImage from '../components/MainImage';
 import Footer from "../components/Footer";
-import Form from "../components/Form";
+import ContactForm from "../components/Form";
 
 const Contact = () => {
   return (
@@ -12,7 +12,7 @@ const Contact = () => {
         heading={"Contact us"}
         text={"I am looking forward to meeting you!"}
       />
-      <Form />
+      <ContactForm />
       <Footer />
     </div>
   );

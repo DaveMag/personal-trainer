@@ -8,10 +8,11 @@ const Video = () => {
   return (
     <div className="back-video">
       <video
-        playsinline={true}
-        autoplay={true}
-        loop={true}
-        muted={true}
+        playsinline="true"
+        autoplay="true"
+        loop="true"
+        muted="true"
+        disablePictureInPicture="true"
         id="video"
       >
         <source src={Background} type="video/mp4" />

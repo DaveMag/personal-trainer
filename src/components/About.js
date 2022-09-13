@@ -10,7 +10,7 @@ const About = () => {
     <div className="about">
       <div className="left">
         <h2>INSTRUCTOR</h2>
-        <p>
+        <p className="instructor">
           I am an open-minded, positive and proactive person. I combine
           directing, coaching pedagogy, and teaching in team sports. After
           obtaining a Sports Science degree from the European University of
