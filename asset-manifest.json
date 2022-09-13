@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-trainer/static/css/main.3043d014.css",
-    "main.js": "/personal-trainer/static/js/main.35f18765.js",
+    "main.js": "/personal-trainer/static/js/main.da50b958.js",
     "static/media/Background.mp4": "/personal-trainer/static/media/Background.9067dbe511649df4c5be.mp4",
     "static/media/toning.jpg": "/personal-trainer/static/media/toning.cec49cd9d5fc3f92debf.jpg",
     "static/media/weight-loss.jpg": "/personal-trainer/static/media/weight-loss.7acd1d1a48b6164e7ab1.jpg",
@@ -14,10 +14,10 @@
     "static/media/main-image.jpg": "/personal-trainer/static/media/main-image.f45f3ac0ed659995b49e.jpg",
     "index.html": "/personal-trainer/index.html",
     "main.3043d014.css.map": "/personal-trainer/static/css/main.3043d014.css.map",
-    "main.35f18765.js.map": "/personal-trainer/static/js/main.35f18765.js.map"
+    "main.da50b958.js.map": "/personal-trainer/static/js/main.da50b958.js.map"
   },
   "entrypoints": [
     "static/css/main.3043d014.css",
-    "static/js/main.35f18765.js"
+    "static/js/main.da50b958.js"
   ]
 }
