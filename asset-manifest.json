@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/personal-trainer/static/css/main.3043d014.css",
+    "main.js": "/personal-trainer/static/js/main.113cb200.js",
+    "static/media/Background.mp4": "/personal-trainer/static/media/Background.9067dbe511649df4c5be.mp4",
+    "static/media/toning.jpg": "/personal-trainer/static/media/toning.cec49cd9d5fc3f92debf.jpg",
+    "static/media/weight-loss.jpg": "/personal-trainer/static/media/weight-loss.7acd1d1a48b6164e7ab1.jpg",
+    "static/media/injury-prevention.jpg": "/personal-trainer/static/media/injury-prevention.0bbf0f970639c5d9a0a6.jpg",
+    "static/media/prevention.jpg": "/personal-trainer/static/media/prevention.03b65e7332f15b5f616e.jpg",
+    "static/media/rehabilitation.jpg": "/personal-trainer/static/media/rehabilitation.9225ce5b65752c8fbb03.jpg",
+    "static/media/pilates.jpg": "/personal-trainer/static/media/pilates.823aaf483c57230b14d3.jpg",
+    "static/media/cardio.jpg": "/personal-trainer/static/media/cardio.12c609a17cd8618528e6.jpg",
+    "static/media/ball.jpg": "/personal-trainer/static/media/ball.1d932e0fac0e06ab816c.jpg",
+    "static/media/main-image.jpg": "/personal-trainer/static/media/main-image.f45f3ac0ed659995b49e.jpg",
+    "index.html": "/personal-trainer/index.html",
+    "main.3043d014.css.map": "/personal-trainer/static/css/main.3043d014.css.map",
+    "main.113cb200.js.map": "/personal-trainer/static/js/main.113cb200.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3043d014.css",
+    "static/js/main.113cb200.js"
+  ]
+}
